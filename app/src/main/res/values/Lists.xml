@@ -29,8 +29,11 @@
         <item name="vshort">Hard to see them at eye level</item>
         <item name="vvshort">I am pretty sure they evolved from ants</item>
     </array>
-    <array name="Race" type="optional">
-        <item>You\'re Damn Insensitive. Whats wrong with you?</item>
+    <array name="Race" type="insensitive">
+        <item>Asian</item>
+        <item>Caucasian</item>
+        <item>African American</item>
+        <item>Latino</item>
     </array>
     <array name="Age" type="optional">
         <item name="born">They can count</item>

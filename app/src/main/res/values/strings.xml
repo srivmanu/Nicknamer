@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Nicknamer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="placeholderTitle">Placeholder</string>
+    <string name="placeholderlong">Placeholder long so long. Very long placeholder. Maybe multiple lines. So many lines, wow!</string>
+    <string name="insensitive">You\'re Damn Insensitive. Whats wrong with you?</string>
 </resources>
