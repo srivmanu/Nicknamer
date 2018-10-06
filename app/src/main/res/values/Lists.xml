@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="FriendshipLevel" type="mandatory">
-        <item name="Lvl1">I don't know them</item>
+        <item name="Lvl1">I don\'t know them</item>
         <item name="Lvl2">Met them once or twice</item>
         <item name="Lvl3">See them everyday</item>
         <item name="Lvl4">Know them since birth</item>
@@ -24,13 +24,13 @@
     <array name="Height" type="mandatory">
         <item name="vtall">I am sure they can see through the clouds</item>
         <item name="tall">Cant see their face</item>
-        <item name="average">I can't see how they are different from anyone else</item>
+        <item name="average">I can\'t see how they are different from anyone else</item>
         <item name="short">I can rest my hand on them when needed</item>
         <item name="vshort">Hard to see them at eye level</item>
         <item name="vvshort">I am pretty sure they evolved from ants</item>
     </array>
     <array name="Race" type="optional">
-        <item>You're Damn Insensitive. Whats wrong with you?</item>
+        <item>You\'re Damn Insensitive. Whats wrong with you?</item>
     </array>
     <array name="Age" type="optional">
         <item name="born">They can count</item>
