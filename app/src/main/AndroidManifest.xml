@@ -10,9 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Base.ThemeOverlay.AppCompat"
-        android:fullBackupContent="@xml/backup_descriptor"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Nicknamer">
+        <activity android:name=".Nicknamer"
+            android:theme="@style/Material.Light.DarkActionBar.Blue">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
