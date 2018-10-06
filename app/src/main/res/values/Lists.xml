@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="FriendshipLevel" type="mandatory">
+        <item name="Lvl1">I don't know them</item>
+        <item name="Lvl2">Met them once or twice</item>
+        <item name="Lvl3">See them everyday</item>
+        <item name="Lvl4">Know them since birth</item>
+        <item name="Lvl5">I can itemize what they are thinking at any moment, in order</item>
+    </array>
+    <array name="FaceStructure" type="mandatory">
+        <item name="roundish">Round-ish</item>
+        <item name="round">Perfectly Round</item>
+        <item name="squarish">Square-ish</item>
+        <item name="trianglish">Almost a triangle</item>
+        <item name="triangle">Definitely a triangle</item>
+    </array>
+    <array name="Stature" type="mandatory">
+        <item name="stick">Thin as a stick</item>
+        <item name="thin">Thin</item>
+        <item name="healthy">Healthy</item>
+        <item name="heavy">A little more pounds than necessary</item>
+        <item name="fat">They are FAT</item>
+    </array>
+    <array name="Height" type="mandatory">
+        <item name="vtall">I am sure they can see through the clouds</item>
+        <item name="tall">Cant see their face</item>
+        <item name="average">I can't see how they are different from anyone else</item>
+        <item name="short">I can rest my hand on them when needed</item>
+        <item name="vshort">Hard to see them at eye level</item>
+        <item name="vvshort">I am pretty sure they evolved from ants</item>
+    </array>
+    <array name="Race" type="optional">
+        <item>You're Damn Insensitive. Whats wrong with you?</item>
+    </array>
+    <array name="Age" type="optional">
+        <item name="born">They can count</item>
+        <item name="child">Almost a child</item>
+        <item name="almostteen">Typical Teen</item>
+        <item name="teen">Atypical Teen</item>
+        <item name="vyoung">Early 20s</item>
+        <item name="young">Late 20s</item>
+        <item name="90skids">They remember the 90s</item>
+        <item name="old">They remember the wars!</item>
+        <item name="vold">They can narrate WW2 history from memory</item>
+        <item name="dead">How are they still alive?</item>
+        <item name="ghost">Pretty sure they are a ghost</item>
+    </array>
+    <array name="EnergyLevel" type="optional">
+        <item name="sleepy">Will sleep all the time</item>
+        <item name="lazy">Always needs a seat</item>
+        <item name="average">Needs to check their "schedule"</item>
+        <item name="available">Mostly available</item>
+        <item name="ready">Ready for whatever you bring</item>
+        <item name="hyperactive">Hyperactive monkey</item>
+    </array>
+</resources>

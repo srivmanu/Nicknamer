@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Pages">
+        <item name = "Stature">Stature</item>
+        <item name = "FaceStructure">Face Structure</item>
+        <item name = "Height">Height</item>
+        <item name = "OtherDetails">Other Details</item>
+    </array>
+    <array name="OtherDetails">
+        <item name="race">Race</item>
+        <item name="age">Age</item>
+        <item name="EnergyLevel">Energy Level</item>
+        <item name="text">Other</item>
+    </array>
+</resources>
