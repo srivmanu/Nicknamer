@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextInputFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="62sp"
+        android:id="@+id/edit_text_fragment"
+        android:paddingLeft="8sp"
+        android:paddingRight="8sp"
+        android:paddingBottom="32sp" />
+
+</android.support.constraint.ConstraintLayout>

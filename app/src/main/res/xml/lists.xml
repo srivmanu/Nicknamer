@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maps>
+    <map key="FriendshipLevel" type="mandatory">
+        <entry key="Lvl1">I don\'t know them</entry>
+        <entry key="Lvl2">Met them once or twice</entry>
+        <entry key="Lvl3">See them everyday</entry>
+        <entry key="Lvl4">Know them since birth</entry>
+        <entry key="Lvl5">I can itemize what they are thinking at any moment, in order</entry>
+    </map>
+    <map key="FaceStructure" type="mandatory">
+        <entry key="roundish">Round-ish</entry>
+        <entry key="round">Perfectly Round</entry>
+        <entry key="squarish">Square-ish</entry>
+        <entry key="trianglish">Almost a triangle</entry>
+        <entry key="triangle">Definitely a triangle</entry>
+    </map>
+    <map key="Stature" type="mandatory">
+        <entry key="stick">Thin as a stick</entry>
+        <entry key="thin">Thin</entry>
+        <entry key="healthy">Healthy</entry>
+        <entry key="heavy">A little more pounds than necessary</entry>
+        <entry key="fat">They are FAT</entry>
+    </map>
+    <map key="Height" type="mandatory">
+        <entry key="vtall">I am sure they can see through the clouds</entry>
+        <entry key="tall">Cant see their face</entry>
+        <entry key="average">I can\'t see how they are different from anyone else</entry>
+        <entry key="short">I can rest my hand on them when needed</entry>
+        <entry key="vshort">Hard to see them at eye level</entry>
+        <entry key="vvshort">I am pretty sure they evolved from ants</entry>
+    </map>
+    <map key="Race" type="insensitive">
+        <entry>Asian</entry>
+        <entry>Caucasian</entry>
+        <entry>African American</entry>
+        <entry>Latino</entry>
+    </map>
+    <map key="Age" type="optional">
+        <entry key="born">They can count</entry>
+        <entry key="child">Almost a child</entry>
+        <entry key="almostteen">Typical Teen</entry>
+        <entry key="teen">Atypical Teen</entry>
+        <entry key="vyoung">Early 20s</entry>
+        <entry key="young">Late 20s</entry>
+        <entry key="90skids">They remember the 90s</entry>
+        <entry key="old">They remember the wars!</entry>
+        <entry key="vold">They can narrate WW2 history from memory</entry>
+        <entry key="dead">How are they still alive?</entry>
+        <entry key="ghost">Pretty sure they are a ghost</entry>
+    </map>
+    <map key="EnergyLevel" type="optional">
+        <entry key="sleepy">Will sleep all the time</entry>
+        <entry key="lazy">Always needs a seat</entry>
+        <entry key="average">Needs to check their "schedule"</entry>
+        <entry key="available">Mostly available</entry>
+        <entry key="ready">Ready for whatever you bring</entry>
+        <entry key="hyperactive">Hyperactive monkey</entry>
+    </map>
+    <map key="Pages">
+        <entry key = "Stature">Stature</entry>
+        <entry key = "FaceStructure">Face Structure</entry>
+        <entry key = "Height">Height</entry>
+        <entry key = "OtherDetails">Other Details</entry>
+    </map>
+    <map key="OtherDetails">
+        <entry key="race">Race</entry>
+        <entry key="age">Age</entry>
+        <entry key="EnergyLevel">Energy Level</entry>
+        <entry key="text">Other</entry>
+    </map>
+</maps>

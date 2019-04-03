@@ -6,4 +6,6 @@
     <string name="placeholderTitle">Placeholder</string>
     <string name="placeholderlong">Placeholder long so long. Very long placeholder. Maybe multiple lines. So many lines, wow!</string>
     <string name="insensitive">You\'re Damn Insensitive. Whats wrong with you?</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
 </resources>

@@ -9,3 +9,9 @@
 /build
 /captures
 .externalNativeBuild
+
+build\.gradle
+
+gradle/wrapper/gradle-wrapper\.properties
+
+\.idea/

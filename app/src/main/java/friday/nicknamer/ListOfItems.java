@@ -1,12 +1,19 @@
 package friday.nicknamer;
 
 import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.annotation.NonNull;
+import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Objects;
 
 
 /**
@@ -20,6 +27,11 @@ import android.view.ViewGroup;
 public class ListOfItems extends Fragment {
 
     private OnFragmentInteractionListener mListener;
+    ArrayList<String> listOfPages;
+    ArrayList<String> otherDetailPages;
+    ArrayList<String> selectedValues = new ArrayList<>();
+    RecyclerView recyclerView = getView().findViewById(R.id.recycler_fragment);
+    int current = 0;
 
     public ListOfItems() {
         // Required empty public constructor
@@ -42,10 +54,22 @@ public class ListOfItems extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        listOfPages = getPageArrayFromXML();
+        mListener.setPageTitle(listOfPages.get(current));
+        otherDetailPages = getOtherDetailsFromXML();
+
         return inflater.inflate(R.layout.fragment_list, container, false);
+    }
+
+    private ArrayList<String> getOtherDetailsFromXML() {
+        return new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.OtherDetails)));
+    }
+
+        private ArrayList<String> getPageArrayFromXML() {
+            return new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.Pages)));
     }
 
     @Override
@@ -65,6 +89,30 @@ public class ListOfItems extends Fragment {
         mListener = null;
     }
 
+    public void onFabClick() {
+        if (current < listOfPages.size() - 1) {
+            current++;
+            mListener.setPageTitle(listOfPages.get(current));
+        }
+    }
+
+    public void backButtonPressed() {
+        Log.i("FridayTag", "Here2");
+        if ((current) > 0) {
+            current--;
+            mListener.setPageTitle(listOfPages.get(current));
+        } else {
+            Log.i("FridayTag", "Here");
+            Snackbar.make(Objects.requireNonNull(getView()), "Are you sure you want to exit?", Snackbar.LENGTH_INDEFINITE).setAction("YES", new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mListener.exitApp();
+                }
+            }).show();
+        }
+    }
+
+
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
@@ -77,5 +125,9 @@ public class ListOfItems extends Fragment {
      */
     public interface OnFragmentInteractionListener {
         void onFragmentInteraction(NicknamerAction action);
+
+        void setPageTitle(String title);
+
+        void exitApp();
     }
 }
